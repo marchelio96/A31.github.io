@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 50px 0px 50px 0px;
+  background-image: url(Fate1.png);
+  background-size: cover;
+  color: white;
+  text-align: right;
+  height: 300px;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  color:rgb(255, 255, 255)
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 120px;
+  margin-top: 5px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon{
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.lesson-wrapper {
+  text-align: center;
+  background-color: #000000;
+  padding-top: 5px;
+  padding-bottom: 35px;
+}
+
+.heading {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.heading-left {
+  float: left;
+}
+
+.heading h3 {
+  font-weight: normal;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.lambang {
+  width: 500px;
+  padding-right: 50px;
+}
+
+.message-wrapper {
+  background-color: #a00000;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.lesson {
+  float: left;
+  width: 50%;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+
+.heading h1 {
+  color:rgb(241, 241, 241)
+}
+
+.message {
+  padding: 10px 15px;
+  background-color: #000000;
+  cursor: pointer;
+  box-shadow: 0 7px #3d3d3d;
+  color: #ff0000;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer {
+  background-color: #000000;
+  background-size: cover;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+footer img {
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer p {
+  color: #ff0000;
+  font-size: 20px;
+  text-align: center;
+}
+
+.message {
+  background-size: cover;
+  background-color: rgb(0, 0, 0);
+  animation-name: animasi;
+  animation-duration: 20s;
+}
+
+@keyframes animasi {
+  0%   {background-color: rgb(9, 255, 0);}
+  25%  {background-color: rgb(255, 255, 0);}
+  50%  {background-color: rgb(0, 217, 255);}
+  100% {background-color: rgb(255, 255, 255);}
+}
