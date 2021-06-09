@@ -24,9 +24,6 @@ a {
   padding: 50px 0px 50px 0px;
   background-image: url(Fate1.png);
   background-size: cover;
-  color: white;
-  text-align: right;
-  height: 300px;
 }
 
 .top-wrapper h1 {
@@ -101,16 +98,19 @@ header {
   float: left;
 }
 
-.heading h3 {
+.lambang {
+  max-width: 100%; 
+  display: block; 
+  height: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.heading-right h3 {
   font-weight: normal;
   text-align: justify;
   color: rgb(255, 255, 255);
   font-size: 20px;
-}
-
-.lambang {
-  width: 500px;
-  padding-right: 50px;
 }
 
 .message-wrapper {
