@@ -20,12 +20,12 @@
     width: 100%;
   }
   
+  header {
+    width: 100%;
+  }
+
   footer {
     text-align: center;
-  }
-    
-  .top-wrapper {
-    text-align: left;
   }
   
   .header-right {
@@ -44,11 +44,5 @@
   .top-wrapper p {
     font-size: 14px;
     line-height: 20px;
-  }
-  
-  .lambang {
-    max-width: 100%; 
-    display:block; 
-    height: auto;
   }
 }
