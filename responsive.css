@@ -45,4 +45,10 @@
     font-size: 14px;
     line-height: 20px;
   }
+  
+    .lambang {
+    max-width: 100%; 
+    display:block; 
+    height: auto;
+  }
 }
