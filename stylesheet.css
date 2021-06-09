@@ -158,21 +158,27 @@ header {
 footer {
   background-color: #000000;
   background-size: cover;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-top: 5px;
+  padding-bottom: 120px;
 }
 
-footer img {
-  width: 150px;
+.footer-left {
+  float: left;
+}
+
+.footer-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: rgb(255, 0, 0);
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  float: right;
+  transition: all 0.5s;
 }
 
 footer p {
   color: #ff0000;
   font-size: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .message {
