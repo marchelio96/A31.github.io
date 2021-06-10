@@ -108,6 +108,13 @@ header {
   width: 100%;
 }
 
+.heading-right h3 {
+  font-weight: normal;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
 .message-wrapper {
   background-color: #a00000;
   text-align: center;
