@@ -1,0 +1,110 @@
+/* Untuk Tablet */
+@media all and (max-width: 1024px) {
+
+  .lesson-wrapper .heading h3{
+    font-size: 19px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 768px){
+  .lesson-wrapper .heading{
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "kepala"
+    "artikel";
+  }
+  .lesson-wrapper .heading h3{
+    font-size: 28px;
+    padding-left: 0px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+
+  .lesson-wrapper .heading h3{
+    font-size: 20px;
+    padding-left: 0px;
+  }
+  
+  footer {
+    text-align: center;
+  }
+    
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  .header-right {
+    display: none;
+  }
+  
+  header .menu-icon {
+    display: block;
+    color: white;
+    float: right;
+    font-size: 30px;
+    padding: 15px 15px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .footer-right a {
+    line-height: 65px;
+    padding: 0 18px;
+  }
+  footer .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr;
+    grid-template-areas: 
+    "fotatas"
+    "fotbawah";
+  }
+  .footer-right{
+    padding-top: 0px;
+  }
+
+  .footer-right a {
+    float: none;
+  }
+}
+
+@media all and (max-width: 320px){
+  .lesson-wrapper .heading h3{
+    font-size: 15px;
+  }
+  .heading h1{
+    font-size: 25px;
+    padding-top: 10px;
+  }
+  .top-wrapper h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .footer-left img{
+    width: 120px;
+    height: 64px;
+  }
+  .footer-right a {
+    padding: 0px 5px;
+  }
+}
