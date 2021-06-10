@@ -15,13 +15,8 @@ a {
   clear: left;
 }
 
-.container {
-  max-width: 1300px;
-  margin: 0 auto;
-}
-
 .top-wrapper {
-  padding: 300px 0px 50px 0px;
+  padding: 50px 0px 50px 0px;
   background-image: url(Fate1.png);
   background-size: cover;
 }
@@ -54,11 +49,12 @@ header {
 
 .header-left {
   float: left;
+  padding-left: 10px;
 }
 
 .header-right {
   float: right;
-  margin-right: -25px;
+
 }
 
 .header-right a {
@@ -75,42 +71,40 @@ header {
 }
 
 .menu-icon{
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
   display: none;
 }
 
 .lesson-wrapper {
   text-align: center;
   background-color: #000000;
-  padding-top: 5px;
-  padding-bottom: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-
-.heading {
-  padding-top: 20px;
-  padding-bottom: 20px;
+.lesson-wrapper .heading{
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  grid-template-areas: "gambar artikel";
+  grid-gap: 5px;
+  padding: 0px 10px;
+}
+.lesson-wrapper .container{
+  padding: 10px 0px;
 }
 
 .heading-left {
   float: left;
 }
 
-.lambang {
-  max-width: 100%; 
-  display: block; 
-  height: auto;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-
-.heading-right h3 {
+.lesson-wrapper .heading h3 {
   font-weight: normal;
   text-align: justify;
   color: rgb(255, 255, 255);
-  font-size: 20px;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.lambang {
+  width: 100%;
 }
 
 .message-wrapper {
@@ -134,11 +128,14 @@ header {
 
 .heading h3 {
   font-weight: normal;
+  margin: 0px;
 }
 
 
 .heading h1 {
-  color:rgb(241, 241, 241)
+  color:rgb(241, 241, 241);
+  margin: 0px;
+  font-size: 45px;
 }
 
 .message {
@@ -159,26 +156,37 @@ footer {
   background-color: #000000;
   background-size: cover;
   padding-top: 5px;
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
+}
+footer .container{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 .footer-left {
-  float: left;
+  /* float: left; */
+  padding-left: 10px;
+}
+
+.footer-right {
+  /* float: right; */
+  padding-top: 25px;
 }
 
 .footer-right a {
   line-height: 65px;
   padding: 0 25px;
   color: rgb(255, 0, 0);
-  display: block;
+  /* display: block; */
   float: right;
   transition: all 0.5s;
 }
 
-footer p {
+.footer-left p {
   color: #ff0000;
   font-size: 20px;
-  text-align: left;
+  margin: 0px;
+  padding-bottom: 10px;
 }
 
 .message {
