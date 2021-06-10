@@ -19,6 +19,7 @@ a {
   padding: 50px 0px 50px 0px;
   background-image: url(Fate1.png);
   background-size: cover;
+  height: 300px;
 }
 
 .top-wrapper h1 {
